@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-slate-900 grid place-content-center h-screen">
+
+    <div class="chat-notification">
+        <div class="chat-notification-loggo-wrapper">
+            <img class="chat-notification-logo"
+                src="//thumbs.dreamstime.com/b/chat-icon-isolated-white-background-79426494.jpg">
+        </div>
+        <div class="chat-notification-content">
+            <h1 class="chat-notification-title">Chit-Chat</h1>
+            <p class="chat-notification-message">You have a new message</p>
+        </div>
+    </div>
+
+    <style>
+        .chat-notification {
+            display: flex;
+            align-items: center;
+            max-width: 25rem;
+            margin: 0 auto;
+            padding: 1.9rem;
+            border-radius: 0.5rem;
+            background-color: #fff;
+            box-shadow: 0 20px 25px -5px rgb(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .chat-notification-logo-wrapper {
+            flex-shrink: 0;
+        }
+
+        .chat-notification-logo {
+            height: 5rem;
+            width: 5rem;
+        }
+
+        .chat-notification-content{
+            margin-left: 1.5rem;
+        }
+
+        .chat-notification-title{
+            color: #1a202c;
+            font-size: 1.25rem;
+            line-height: 1.25;
+        }
+
+        .chat-notification-message{
+            color: #718096;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+    </style>
+</body>
+
+</html>
